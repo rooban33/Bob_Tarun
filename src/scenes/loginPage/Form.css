@@ -39,6 +39,18 @@ justify-content: center;
 align-items: center;
 }
 
+.ring1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
 
 
 
@@ -144,3 +156,22 @@ text-decoration: none;
 .login .inputBx input:focus {
   color: #fff; /* Change the text color to white when the input is focused */
 }
+.divbg {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.pinimg.com/originals/4a/34/99/4a3499c6b5cca368ec4e3717f9077114.gif');
+  background-size:cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw; /* Set width to full viewport width */
+  height: 100vh; /* Set height to full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack children vertically */
+}
+
+.divbg > * {
+  margin-bottom: 20px; /* Add space between elements */
+}
+
